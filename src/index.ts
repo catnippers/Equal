@@ -22,6 +22,7 @@ import Modal from './components/modal'
 import Notification from './components/notification'
 import NumberInput from './components/numberinput'
 import Popover from './components/popover'
+import DoublePopover from './components/double-popover'
 import Progressbar from './components/progressbar'
 import Radio from './components/radio'
 import Select from './components/select'
@@ -57,6 +58,7 @@ const components = {
   Loading,
   Modal,
   NumberInput,
+  DoublePopover,
   Popover,
   Progressbar,
   Radio,
@@ -111,6 +113,7 @@ export { default as Modal } from './components/modal'
 export { default as Notification } from './components/notification'
 export { default as NumberInput } from './components/numberinput'
 export { default as Popover } from './components/popover'
+export { default as DoublePopover } from './components/double-popover'
 export { default as Progressbar } from './components/progressbar'
 export { default as Radio } from './components/radio'
 export { default as Select } from './components/select'
